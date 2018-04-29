@@ -1,1 +1,140 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Tab -->
+  <title>Priyanka Kogta</title>
+  <link rel="icon" href="images/command-lines.png">
+
+  <!-- Style Sheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Josefin+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+  <!-- MDL -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-blue.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/310e00b197.js"></script>
+</head>
+<body>
+  <!-- TOP SECTION -->
+  <div class="header">
+    <center>
+      <h4 class="text"> Priyanka Kogta </h4>
+    </center>
+  </div>
+  <div onmousemove="myListener(event)">
+    <center class="my-picture">
+     <!-- <img id="picture" src="images/Priyanka.jpg" style="width: 75%; "> -->
+    </center>
+  </div>
+
+  <!-- INTRO SECTION -->
+  <div class="container-fluid intro-section">
+    <div class="row" id="intro">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div>
+              <h3 class="text intro-text">
+                Senior Hokie studying Computer Science
+              </h3>
+			 <a id="description-link" href="https://www.slideshare.net/slideshow/embed_code/key/30wiAw9nshKUhc">
+              <button type="button" class="btn btn-outline-secondary btn-lg intro-btn">
+                  See Full Resume
+              </button>
+			  </a>
+            </div>
+          </div>
+          <!-- <div class="col-md-4">
+            <img id="prof_pic" src="images/vertical-bw.jpg">
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS SECTION -->
+  <div class="container-fluid project-section">
+    <div class="row" id="projects">
+      <div class="offset-md-1 col-md-10 project-panel center">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Projects</h3>
+          </div>
+        </div>
+        <div class="row add-padding">
+          <div class="col-md-12">
+            <p>Projects from various classes, and my own.</p>
+          </div>
+        </div>
+        <div class="row divider">
+          <div id="project1" class="offset-md-2 col-md-2 left-margin center" style="border-bottom: 4px solid #5bc0de;">
+            <i class="fa fa-map-marker fa-4x" aria-hidden="true"></i>
+            <p class="project-title">GIS System</p>
+          </div>        
+        </div>
+        <div class="row add-padding">
+          <div class="offset-md-2 col-md-8">
+            <h4 id="description-title">GIS System</h4>
+            <p id="description">This program, created in Java, had to import new GIS records into the database file, retrieve data for all GIS records matching given geographic coordinates, retrieve data for all GIS records matching a given feature name and state, and retrieve data for all GIS records that fall within a given (rectangular) geographic region.</p>
+            <a id="description-link" href="https://github.com/priyankakogta/CS3114_Spring17/tree/master/GISSystem">
+              <button type="button" class="btn btn-outline-info" id="description-btn">
+                See Project
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <div class="container-fluid contact-section">
+    <div class="row" id="contact">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div>
+              <h3> Contact Me </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="offset-md-3 col-md-2 text-center">
+            <a href="https://www.linkedin.com/in/priyankakogta/">
+              <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="col-md-2 text-center">
+            <a href="https://github.com/priyankakogta">
+              <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="col-md-2 text-center">
+            <a href="mailto:prikogta@vt.edu">
+              <i class="fa fa-envelope-square fa-4x" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js" defer></script>
+</body>
+</html>
