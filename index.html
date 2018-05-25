@@ -1,140 +1,197 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
-<head>
-  <!-- Tab -->
-  <title>Priyanka Kogta</title>
-  <link rel="icon" href="images/command-lines.png">
+	<head>
+		<!-- The <head> will contain general information and metadata about the page, while the <body> will contain the content that will be displayed on the page. Here’s an example tree structure for a full HTML document: -->
 
-  <!-- Style Sheet -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Tab -->
+		<title>Priyanka Kogta</title>
+		<meta charset="utf-8">
+			<link rel="icon" type="image/jpg" href="image/priyanka.JPG">
 
-  <!-- JQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+				<!-- Makes the web site work on all devices and screen resolutions -->
+				<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+					<!-- Style Sheet -->
+					<link rel="stylesheet" type="text/css" href="style.css">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Josefin+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+						<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
-  <!-- MDL -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-blue.min.css">
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+							<!-- Bootstrap -->
+							<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- Font Awesome -->
-  <script src="https://use.fontawesome.com/310e00b197.js"></script>
-</head>
-<body>
-  <!-- TOP SECTION -->
-  <div class="header">
-    <center>
-      <h4 class="text"> Priyanka Kogta </h4>
-    </center>
-  </div>
-  <div onmousemove="myListener(event)">
-    <center class="my-picture">
-     <!-- <img id="picture" src="images/Priyanka.jpg" style="width: 75%; "> -->
-    </center>
-  </div>
+								<!-- Fonts -->
+								<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 
-  <!-- INTRO SECTION -->
-  <div class="container-fluid intro-section">
-    <div class="row" id="intro">
-      <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div>
-              <h3 class="text intro-text">
-                Senior Hokie studying Computer Science
-              </h3>
-			 <a id="description-link" href="https://www.slideshare.net/slideshow/embed_code/key/30wiAw9nshKUhc">
-              <button type="button" class="btn btn-outline-secondary btn-lg intro-btn">
-                  See Full Resume
-              </button>
-			  </a>
-            </div>
-          </div>
-          <!-- <div class="col-md-4">
-            <img id="prof_pic" src="images/vertical-bw.jpg">
-          </div> -->
-        </div>
-      </div>
-    </div>
-  </div>
+									<!-- MDL -->
+									<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+									<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-blue.min.css">
+										<!-- <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> -->
 
-  <!-- PROJECTS SECTION -->
-  <div class="container-fluid project-section">
-    <div class="row" id="projects">
-      <div class="offset-md-1 col-md-10 project-panel center">
-        <div class="row">
-          <div class="col-md-12">
-            <h3>Projects</h3>
-          </div>
-        </div>
-        <div class="row add-padding">
-          <div class="col-md-12">
-            <p>Projects from various classes, and my own.</p>
-          </div>
-        </div>
-        <div class="row divider">
-          <div id="project1" class="offset-md-2 col-md-2 left-margin center" style="border-bottom: 4px solid #5bc0de;">
-            <i class="fa fa-map-marker fa-4x" aria-hidden="true"></i>
-            <p class="project-title">GIS System</p>
-          </div>        
-        </div>
-        <div class="row add-padding">
-          <div class="offset-md-2 col-md-8">
-            <h4 id="description-title">GIS System</h4>
-            <p id="description">This program, created in Java, had to import new GIS records into the database file, retrieve data for all GIS records matching given geographic coordinates, retrieve data for all GIS records matching a given feature name and state, and retrieve data for all GIS records that fall within a given (rectangular) geographic region.</p>
-            <a id="description-link" href="https://github.com/priyankakogta/CS3114_Spring17/tree/master/GISSystem">
-              <button type="button" class="btn btn-outline-info" id="description-btn">
-                See Project
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+										<!-- Font Awesome -->
+										<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+										</head>
 
-  <!-- CONTACT SECTION -->
-  <div class="container-fluid contact-section">
-    <div class="row" id="contact">
-      <div class="col-md-12">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div>
-              <h3> Contact Me </h3>
-            </div>
-          </div>
-        </div>
+										<body>
+											<!-- Tab Links -->
+											<div class="tab">
+												<!-- <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+									<button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
+									<button class="tablinks" onclick="openCity(event, 'Resume')">Resume</button>
+									<button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button> -->
 
-        <div class="row">
-          <div class="offset-md-3 col-md-2 text-center">
-            <a href="https://www.linkedin.com/in/priyankakogta/">
-              <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="col-md-2 text-center">
-            <a href="https://github.com/priyankakogta">
-              <i class="fa fa-github fa-4x" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="col-md-2 text-center">
-            <a href="mailto:prikogta@vt.edu">
-              <i class="fa fa-envelope-square fa-4x" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <br>
-      </div>
-    </div>
-  </div>
+											</div>
 
-  <!-- Script -->
-  <script src="script.js" defer></script>
-</body>
-</html>
+											<!-- HEADER -->
+											<div class="introduction">
+												<div class="header">
+													<center>
+														<h1 class="text"> Priyanka Kogta </h1>
+													</center>
+												</div>
+												<!-- INTRODUCTION -->
+												<div class="subheading">
+													<div class="subheading" id="intro">
+														<h4 class="subheading">
+															<b>  Hokie Graduate in Computer Science </b>
+														</h4>
+													</div>
+													<!-- <div class="col-md-12 text-center"> -->
+
+													<!-- Specifies where to display the linked URL, and _blank loads the URL into a new browsing context.  -->
+													<!-- <a href="kogta-resume.pdf" target="_blank"> -->
+													<!-- <button type="resumeButton" class="btn btn-outline-primary"> -->
+													<!-- See Resume -->
+													<!-- </button> -->
+													<!-- </a> -->
+
+													<!-- <button type="resumeButton" class="btn btn-outline-primary" onclick="window.open('https://www.slideshare.net/slideshow/embed_code/key/HAj9ZZHKQsUBpW')">
+                  See Resume
+												</button> -->
+													<!-- </div> -->
+												</div>
+											</div>
+
+											<!-- ABOUT ME -->
+											<div>
+												<div class="offset-md-5 col-md-9 project-panel center">
+													<h3> About Me </h3> 
+												</div>
+												<div class="offset-md-1 col-md-10 project-panel center">
+													<h4> My Background </h4>
+													<p> I am a recent graduate from Virginia Tech studying Computer Science. I am interested in software and web development, as well as test automation. I want to be able to help shape the world into a better place, and continue to be amazed by how the few lines of code that I write make such a positive change. </p>
+												</div>
+												<div class="offset-md-1 col-md-10 project-panel center">
+													<h4> Things I Love </h4>
+													<p> I enjoy reading and coding, along with learning to cook in new cuisines. I also enjoy sunsets very much and will go out of my way to catch a good one! </p>
+												</div>
+											</div>
+
+											<div class="col-md-12 text-center">
+
+												<!-- Specifies where to display the linked URL, and _blank loads the URL into a new browsing context.  -->
+												<a href="kogta-resume.pdf" target="_blank">
+													<button type="resumeButton" class="btn btn-outline-primary">
+									See Resume
+													</button>
+												</a>
+											</div>
+
+											<!-- PROJECTS -->
+											<div class="container-fluid project-section">
+												<div class="row" id="projects">
+													<div class="offset-md-1 col-md-10 project-panel center">
+														<div class="row">
+															<div class="offset-md-5 col-md-12"> <!-- Sets 'Project' title in the middle -->
+																<h3>Projects</h3>
+															</div>
+														</div>
+														<div class="row add-padding">
+															<div class="offset-md-4 col-md-12">
+																<p>Projects from various classes, and my own.</p>
+
+															</div>
+														</div>
+														<div class="project1">
+															<div id="project1" class="offset-md col-md-2 left-margin center" style="border-bottom: 3px solid #5bc0de;">
+																<i class="fa fa-map-marker-alt fa-4x" aria-hidden="true"></i>
+																<p class="project-title">GIS System</p>
+															</div>        
+														</div>
+														<div class="project1">
+															<div class="offset-md-15 col-md-13 project-panel center">
+																<h4 id="title">GIS System</h4>
+																<p id="description">This program, created in Java, had to import new GIS records into the database file, retrieve data for all GIS records matching given geographic coordinates, retrieve data for all GIS records matching a given feature name and state, and retrieve data for all GIS records that fall within a given (rectangular) geographic region.</p>
+																<button type="resumeButton" class="btn btn-outline-primary" onclick="window.open('https://github.com/priyankakogta/CS3114_Spring17/tree/master/GISSystem')">See Project
+																</button>
+															</a>
+														</div>
+													</div>
+
+													<div class="project2">
+														<p> </p>
+														<p> </p>
+														<p> </p>
+														<div id="project2" class="offset-md col-md-3 left-margin center" style="border-bottom: 3px solid #5bc0de;">
+															<i class="fa fa-music fa-4x" aria-hidden="true"></i>
+															<p class="project-title">Music Preference Visualization</p>
+														</div>        
+													</div>
+
+													<div class="project2">
+														<div class="offset-md-15 col-md-13 project-panel center">
+															<h4 id="title">Music Preference Visualization</h4>
+															<p id="description">Written in Java, this project was where a GUI program was created that visualized the music survey data that was collected from students in multiple sections of CS 2114 (Software Design and Data Structures) based on their major, region, and hobby. The purpose of this program is to let users view data from different perspectives of the collected information, such as by sorting music based on information on both the artists and the students. A data file was parsed that had data containing students and their music preferences. Arrays, iterators, and linked lists were used to sort through a list of songs based on the title, artist, genre, and release year.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<!-- CONTACT -->
+										<div class="contact-section">
+											<div class="row" id="contact">
+												<div class="col-md-12">
+													<div class="row">
+														<div class="col-md-12 text-center">
+															<div>
+																<h3> Contact Me </h3>
+															</div>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="offset-md-3 col-md-2 text-center">
+															<a href="https://www.linkedin.com/in/priyankakogta/">
+																<i class="fab fa-linkedin-in fa-3x" aria-hidden="true"></i>
+															</a>
+														</div>
+														<div class="col-md-2 text-center">
+															<a href="https://github.com/priyankakogta">
+																<i class="fab fa-github fa-3x" aria-hidden="true"></i>
+															</a>
+														</div>
+														<div class="col-md-2 text-center">
+															<a href="mailto:prikogta@vt.edu">
+																<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+															</a>
+														</div>
+													</div>
+													<br>
+													</div>
+												</div>
+											</div>
+
+											<button onclick="topFunction()" id="myBtn" title="Go to Top"><i class="fas fa-arrow-circle-up fa-1x"></i></button>
+
+											<!-- Footer -->
+											<!-- <footer class="w3-container w3-padding-64 w3-center w3-black w3-large">
+										<a href="https://github.com/priyankakogta"><i class="fa fa-github fa-3x"></i></a>
+										<a href="mailto:prikogta@vt.edu"><i class="fa fa-envelope fa-3x"></i></a>
+										<a href="https://www.linkedin.com/in/priyankakogta/"><i class="fa fa-linkedin fa-3x"></i></a>
+
+									</footer> -->
+
+											<!-- Script -->
+											<script src="script.js" defer></script>
+										</body>
+									</html>
