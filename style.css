@@ -4,14 +4,18 @@
     background-color: #4169e1;
 }
 
+.spacing {
+	margin-bottom: 10px;  
+}
+
 .introduction {
 	background-image: url("image/hongkonggif.gif");
+	opacity: 0.7; 
 	background-repeat: no-repeat; 
 	background-position: center; 
 	padding-top: 50px; 
-	padding-bottom: 50px; 
-	padding-right: 50px; 
-	/* background-image: url("image/hongkong.jpg"); */
+	padding-bottom: 50px;
+	background-size: 1400px;
 }
 
 .subheading {
@@ -27,7 +31,7 @@
 
 .header {
 	color: white; 
-	text-shadow:
+	text-shadow: /* outlines text in black */
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
