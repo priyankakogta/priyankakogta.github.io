@@ -1,6 +1,7 @@
-.introduction {
-	/* background-image: url("image/hongkong.jpg");  */
-	/* background-repeat: no-repeat;  */
+.tab {
+    overflow: hidden;
+    border: 30px solid #4169e1; /* royal blue */
+    background-color: #4169e1;
 }
 
 .subheading {
@@ -8,78 +9,48 @@
 	text-align: center; 
 }
 
-.project2 {
+.aboutMe {
+	padding-top: 10px; 
+	padding-bottom: 30px; 
+	text-align: justify; 
+
+}
+
+.resume {
+	background-color: #4169e1; 
+	padding-top: 30px; 
+	padding-bottom: 30px;
+}
+
+.project1 {
 	text-align: justify; 
 }
 
-/* .aboutme {
-	padding-right: 10px; 
-} */
-
-/* Style the tabs */
-.tab {
-    overflow: hidden;
-    border: 30px solid #4169e1; /* royal blue */
-    background-color: #4169e1;
-
-}
-
-/* Style the buttons that are used to open the tab content */
-.tab button {
-	color: white; /* text changes to white */
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-    background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #4169e1;
-    border-top: none;
-}
-
-.tabcontent {
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
-
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 3;}
+.project2 {
+	padding-top: 30px; 
+	text-align: justify; 
 }
 
 #myBtn {
     display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
+    position: fixed; /* Displays arrow */
     bottom: 20px; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 30px from the right */
+    right: 20px; /* Place the button 20px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: white; /* Set a background color */
-    color: rgb(68,138,255); /* Arrow is teal blue */
+    background-color: white; /* Arrow color */
+    color: rgb(68,138,255); /* Arrow background is teal blue */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
+    padding: 0.1px;
     border-radius: 10px; /* Rounded corners */
-    font-size: 20px; /* Increase font size */
+    font-size: 20px; 
 }
 
 #myBtn:hover {
-    /* background-color: #555; /* Add a dark-grey background on hover */ */
+     background-color: white; /* Adds a white background on hover */
+}
+
+.contact {
+	outline: 5px solid #4169e1; 
+	background-color: lightblue; 
 }
