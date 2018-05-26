@@ -4,9 +4,34 @@
     background-color: #4169e1;
 }
 
+.introduction {
+	background-image: url("image/hongkonggif.gif");
+	background-repeat: no-repeat; 
+	background-position: center; 
+	padding-top: 50px; 
+	padding-bottom: 50px; 
+	padding-right: 50px; 
+	/* background-image: url("image/hongkong.jpg"); */
+}
+
 .subheading {
-	color: #800000;  /* maroon colour */
+	color: white;  /* white colour */
+	outline: black; 
 	text-align: center; 
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.header {
+	color: white; 
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .aboutMe {
@@ -38,12 +63,12 @@
     right: 20px; /* Place the button 20px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
-    background-color: white; /* Arrow color */
-    color: rgb(68,138,255); /* Arrow background is teal blue */
+    background-color: #4169e1; /* Arrow color */
+    color: #FFFFFF; /* Arrow background is teal blue */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 0.1px;
     border-radius: 10px; /* Rounded corners */
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 #myBtn:hover {
@@ -51,6 +76,33 @@
 }
 
 .contact {
+	color: #4169e1; 
+	font-weight: bold; 
 	outline: 5px solid #4169e1; 
-	background-color: lightblue; 
+	background-color: black; 
+}
+
+.linkedin {
+	transition: transform .2s; /* Animation */
+}
+
+.linkedin:hover {
+	 transform: scale(1.5);
+}
+
+.github {
+	transition: transform .2s; /* Animation */
+
+}
+
+.github:hover {
+	 transform: scale(1.5);
+}
+
+.email {
+	transition: transform .2s; /* Animation */
+}
+
+.email:hover {
+	 transform: scale(1.5);
 }
