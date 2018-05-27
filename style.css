@@ -36,6 +36,9 @@
 	text-align: center; 
 }
 
+.aboutmeTitle {
+	text-align: center; 
+}
 .aboutMe {
 	padding-top: 10px; 
 	padding-bottom: 30px; 
@@ -49,6 +52,9 @@
 	padding-bottom: 30px;
 }
 
+.projectTitle {
+	text-align: center; 
+}
 .project1 {
 	text-align: justify; 
 }
