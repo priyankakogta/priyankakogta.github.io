@@ -10,14 +10,16 @@
 
 /* Received from https://css-tricks.com/snippets/css/typewriter-effect/ */
 .introduction {
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .01em solid orange; /* The typwriter cursor in orange */
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	overflow: hidden; /* Ensures the content is not revealed until the animation */ 
+	border-right: .01em solid orange; /* The typwriter cursor in orange */ 
+	white-space: nowrap; /* Keeps the content on a single line */ 
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */ 
 	letter-spacing: .15em; /* Adjust as needed */
-	animation: 
-	typing 7s steps(40, end),
-    blink-caret .75s step-end infinite;
+	animation:  
+	typing 7s steps(40, end), 
+    blink-caret .65s step-end;
+	border-right: .15em solid transparent;
+	
 }
 
 /* The typing effect */
@@ -27,16 +29,18 @@
 }
 
 .header {
-	color: black; 
+	color: black;
 }
 
 .subheading {
 	color: #91092F;  /* Chicago maroon colour */
 	font-weight: bold; 
-	text-align: center; 
+	text-align: center;
+	
 }
 
 .aboutmeTitle {
+	border-top: 5px solid #4169e1; 
 	text-align: center; 
 }
 .aboutMe {
@@ -47,22 +51,10 @@
 }
 
 .resume {
-	background-color: #4169e1; 
 	padding-top: 30px; 
 	padding-bottom: 30px;
 }
 
-.projectTitle {
-	text-align: center; 
-}
-.project1 {
-	text-align: justify; 
-}
-
-.project2 {
-	padding-top: 30px; 
-	text-align: justify; 
-}
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -84,10 +76,7 @@
 }
 
 .contact {
-	color: #4169e1; 
 	font-weight: bold; 
-	outline: 5px solid #4169e1; 
-	background-color: black; 
 }
 
 .linkedin {
